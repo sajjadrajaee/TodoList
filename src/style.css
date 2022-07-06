@@ -1,0 +1,22 @@
+body {
+	background-color: bisque;
+}
+
+.hello {
+	color: red;
+}
+
+.container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	text-align: center;
+}
+
+.todolist {
+	background-color: aliceblue;
+	padding: 20px;
+}
