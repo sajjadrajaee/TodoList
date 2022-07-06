@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	width: 50%;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -19,4 +19,35 @@ body {
 .todolist {
 	background-color: aliceblue;
 	padding: 20px;
+	box-shadow: inset;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+}
+
+.todo {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid dashed black;
+	height: 30px;
+	margin: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+
+.main-input {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.main-input:active {
+	border: none;
 }
