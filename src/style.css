@@ -1,53 +1,53 @@
 body {
-	background-color: bisque;
+  background-color: bisque;
 }
 
 .hello {
-	color: red;
+  color: red;
 }
 
 .container {
-	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
-	text-align: center;
+  text-align: center;
 }
 
 .todolist {
-	background-color: aliceblue;
-	padding: 20px;
-	box-shadow: inset;
+  background-color: aliceblue;
+  padding: 20px;
+  box-shadow: inset;
 }
 
 .card {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .todo {
-	display: flex;
-	justify-content: space-between;
-	border: 1px solid dashed black;
-	height: 30px;
-	margin: 10px;
-	padding-bottom: 5px;
-	border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid dashed black;
+  height: 30px;
+  margin: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 
 .icon {
-	width: 20px;
-	height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .main-input {
-	width: 100%;
-	height: 100%;
-	border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .main-input:active {
-	border: none;
+  border: none;
 }
