@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
+    <script
+      src="https://kit.fontawesome.com/1a3881f3c5.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
   <div class="container">
@@ -12,12 +16,13 @@
       <div class="card">
         <div class="todo">
           <div class="todo-text">Todays To Do</div>
-          <div class="icon"><img src="./../assets/refresh.png"></div>
+          <span class="fa-solid fa-rotate"></span>
         </div>
         <div class="todo">
-          <input type="text" id="input" class="main-input">  
-          <div class="icon"><img src="./../assets/refresh.png"></div>
+          <input type="text" id="input" class="main-input" placeholder="Write your text here...">  
+          <span class="fa-solid fa-turn-down"></div>
         </div>
+        <ul id="place"></ul>
       </div>
     </div> 
   </div>
