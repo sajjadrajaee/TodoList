@@ -5,7 +5,7 @@
 
 body {
   background-color: bisque;
-  font-family: Grap;
+  font-family: 'Grap', sans-serif;
 }
 
 .hello {
@@ -82,7 +82,8 @@ li {
   width: 90%;
   background-color: aliceblue;
   border: none;
-  font-family: Grap;
+  font-family: 'Grap', sans-serif;
+  font-size: 16px;
 }
 
 .todoDesc:active {

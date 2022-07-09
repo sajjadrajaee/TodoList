@@ -1,5 +1,5 @@
-import Todo from "./todo";
-import updateStatus from "./status";
+import Todo from './todo';
+import updateStatus from './status';
 
 const todoInput = document.querySelector('.main-input');
 const listContainer = document.querySelector('#place');
