@@ -3,6 +3,7 @@ import updateStatus from './status';
 
 const todoInput = document.querySelector('.main-input');
 const listContainer = document.querySelector('#place');
+const clearCompletedBtn = document.querySelector('.completeButton');
 
 let todosArr = [];
 
@@ -102,6 +103,17 @@ todoInput.addEventListener('keyup', (e) => {
   if (e.key === 'Enter') {
     addTodo();
   }
+});
+
+clearCompletedBtn.addEventListener('click', () => {
+  // const todo = new Todo();
+  const filtered = todosArr.filter((todo) => todo.completed !== true);
+  todosArr = filtered;
+  for (let i = 0; i < todosArr.length; i += 1) {
+    todosArr[i].index = i + 1;
+  }
+  localStorage.setItem('todos', JSON.stringify(todosArr));
+  render();
 });
 
 export default render;
